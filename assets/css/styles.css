@@ -1,0 +1,45 @@
+/* ====FORMATAÇÃO DE CSS ANTES  DE COMEÇAR A ESTILIZAR==== */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background-color: #8a51fc;
+}
+
+.logo {
+  width: 300px;
+  display: block;
+  margin: 20px auto;
+}
+
+main {
+  width: 375px;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 44px 24px 23px;
+}
+
+label {
+  color: #777777;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+select {
+  background: #ffffff;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  height: 48px;
+  width: 100%;
+  margin-bottom: 24px;
+  appearance: none;
+  padding-left: 18px;
+  font-weight: 700;
+  font-size: 16px;
+}
